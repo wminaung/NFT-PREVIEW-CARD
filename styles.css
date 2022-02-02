@@ -1,0 +1,45 @@
+.nothing {
+  background-color: hsl(215, 51%, 70%);
+  background-color: hsl(178, 100%, 50%);
+  background-color: hsl(217, 54%, 11%);
+  background-color: hsl(216, 50%, 16%);
+  background-color: hsl(215, 32%, 27%);
+  background-color: hsl(0, 0%, 100%);
+}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+}
+.aa {
+  margin-top: 50px;
+  width: 300px;
+  height: 550px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+}
+.img {
+  width: 250px;
+  border-radius: 15px;
+}
+h1 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+}
+.img2 {
+  width: 40px;
+  margin-right: 20px;
+}
+
+/* - Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
