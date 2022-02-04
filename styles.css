@@ -1,39 +1,64 @@
-.nothing {
-  background-color: hsl(215, 51%, 70%);
-  background-color: hsl(178, 100%, 50%);
-  background-color: hsl(217, 54%, 11%);
-  background-color: hsl(216, 50%, 16%);
-  background-color: hsl(215, 32%, 27%);
-  background-color: hsl(0, 0%, 100%);
-}
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: hsl(217, 54%, 11%);
-  color: hsl(0, 0%, 100%);
   font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
 }
-.aa {
-  margin-top: 50px;
-  width: 300px;
-  height: 550px;
-  background-color: hsl(216, 50%, 16%);
-  border-radius: 15px;
-}
-.img {
-  width: 250px;
-  border-radius: 15px;
-}
-h1 {
-  font-size: 24px;
-}
-p {
-  font-size: 18px;
-}
-.img2 {
-  width: 40px;
-  margin-right: 20px;
+.parent {
+  max-width: 1440px;
 }
 
+.card {
+  width: 300px;
+
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+img {
+  width: 100%;
+
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.hover:active {
+  display: none;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+p {
+  text-align: start;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 400;
+}
+.borde {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.ether {
+  width: 30px;
+}
+.img2 {
+  width: 12px;
+  height: 18px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 /* - Soft blue: hsl(215, 51%, 70%)
 - Cyan: hsl(178, 100%, 50%)
 
@@ -43,3 +68,11 @@ p {
 - Very dark blue (card BG): hsl(216, 50%, 16%)
 - Very dark blue (line): hsl(215, 32%, 27%)
 - White: hsl(0, 0%, 100%) */
+.nothing {
+  background-color: hsl(215, 51%, 70%);
+  background-color: hsl(178, 100%, 50%);
+  background-color: hsl(217, 54%, 11%);
+  background-color: hsl(216, 50%, 16%);
+  background-color: hsl(215, 32%, 27%);
+  background-color: hsl(0, 0%, 100%);
+}

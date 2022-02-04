@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Frontend Mentor | NFT preview card component</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -20,41 +20,51 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div
-      class="container aa d-flex flex-column align-items-center justify-content-around"
+      class="parent d-flex flex-column justify-content-center align-items-center vh-100"
     >
-      <img src="/images/image-equilibrium.jpg" class="img" alt="" />
-      <div>
-        <h1>Equilibrium #3429</h1>
-
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-
-        <div class="spanH d-flex justify-content-between">
-          <span>
-            <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
-                fill="#00FFF8"
-              />
-            </svg>
-            0.041 ETH</span
-          >
-          <span> 3 days left</span>
+      <div class="d-flex justify-content-center align-items-center">
+        <div
+          class="card d-flex flex-column justify-content-center align-items-center"
+        >
+          <img src="./images/image-equilibrium.jpg" class="hover" />
+          <img src="/images/icon-view.svg" class="position-absolute" />
+          <div class="text d-flex flex-column align-items-start">
+            <h1 class="">Equilibrium #3429</h1>
+            <p>Our Equilibrium collection promotes balance and calm</p>
+          </div>
+          <div class="borde d-flex w-100 justify-content-between">
+            <div class="left d-flex align-items-center">
+              <img src="/images/icon-ethereum.svg" class="img2 me-1" />
+              <p>
+                <b>0.041 ETH</b>
+              </p>
+            </div>
+            <div class="right d-flex align-items-center">
+              <img src="/images/icon-clock.svg" class="img2" />
+              <p class="ms-1">3 days left</p>
+            </div>
+          </div>
+          <div class="foot text-start w-100 d-flex mt-2">
+            <img
+              src="/images/image-avatar.png"
+              class="ether d-inline me-3 border"
+            />
+            <p>Creation of <b>Jules Wyvern</b></p>
+          </div>
         </div>
       </div>
-      <div class="d-flex justify-content-start border-top w-100 pt-2">
-        <img src="/images/image-avatar.png" class="img2" />
-        <p>Creation of <b>Jules Wyvern</b></p>
-      </div>
-    </div>
-
-    <div class="attribution footer text-center">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/wminaung">Win Min Aung</a>.
+        </div>
+      </footer>
     </div>
   </body>
 </html>
