@@ -90,6 +90,7 @@ p {
 }
 b {
   user-select: none;
+  color: white;
 }
 b:hover {
   cursor: pointer;
